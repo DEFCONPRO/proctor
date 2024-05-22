@@ -8,7 +8,7 @@ require (
 	github.com/briandowns/spinner v0.0.0-20190319032542-ac46072a5a91
 	github.com/brianvoe/gofakeit v3.18.0+incompatible
 	github.com/docker/distribution v2.7.1+incompatible // indirect
-	github.com/docker/docker v1.13.1
+	github.com/docker/docker v24.0.9+incompatible // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.4.0 // indirect
 	github.com/evanphx/json-patch v4.4.0+incompatible // indirect
@@ -30,9 +30,11 @@ require (
 	github.com/lib/pq v1.1.1
 	github.com/mattes/migrate v3.0.1+incompatible
 	github.com/mattn/go-colorable v0.1.2 // indirect
+	github.com/moby/term v0.5.0 // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
+	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/newrelic/go-agent v2.9.0+incompatible
-	github.com/opencontainers/go-digest v1.0.0-rc1 // indirect
+	github.com/opencontainers/image-spec v1.1.0 // indirect
 	github.com/pkg/errors v0.8.1
 	github.com/prometheus/client_golang v0.9.3
 	github.com/robfig/cron v1.2.0
@@ -41,12 +43,13 @@ require (
 	github.com/sony/sonyflake v1.0.0
 	github.com/spf13/cobra v0.0.4
 	github.com/spf13/viper v1.4.0
-	github.com/stretchr/testify v1.3.0
+	github.com/stretchr/testify v1.7.0
 	github.com/thingful/httpmock v0.0.2
 	github.com/urfave/cli v1.20.0
 	github.com/urfave/negroni v1.0.0
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.2.2
+	gotest.tools/v3 v3.5.1 // indirect
 	k8s.io/api v0.0.0-20190409021203-6e4e0e4f393b
 	k8s.io/apimachinery v0.0.0-20190404173353-6a84e37a896d
 	k8s.io/client-go v11.0.1-0.20190409021438-1a26190bd76a+incompatible
